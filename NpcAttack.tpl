@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <title>Roll20 Npc Attack</title>
 </head>
+
+<body>
 <h3>Welcome to the npc attack macro creator</h3>
 <p>Please enter npc stats.</p>
 <form action="/create" method = "get">
@@ -21,7 +23,5 @@
     <input type="text" id="dmgt" name="dmgt"><br><br>
   <input type="submit" value="Submit">
 </form>
-<body>
-
 </body>
 </html>
