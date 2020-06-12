@@ -21,6 +21,19 @@
     <input type="text" id="dmgr" name="dmgr"><br><br>
     <label for="dmgt">Damage type:</label>
     <input type="text" id="dmgt" name="dmgt"><br><br>
+    <label for="saveatt">Save attribute:</label>
+    <input type="text" id="saveatt" name="saveatt"><br><br>
+    <label for="savedescp">Save description:</label>
+    <input type="text" id="savedescp" name="savedescp"><br><br>
+    <label for="savedcm">Save DC:</label>
+    <input type="text" id="savedcm" name="savedcm"><br><br>
+    <label for="dmgr2">Secondary damageroll:</label>
+    <input type="text" id="dmgr2" name="dmgr2"><br><br>
+    <label for="dmgt2">Secondary damage type:</label>
+    <input type="text" id="dmgt2" name="dmgt2"><br><br>
+    <label for="dmgc2">Secondary damage crit (y/n) (default is n):</label>
+    <input type="text" id="dmgc2" name="dmgc2"><br><br>
+
   <input type="submit" value="Submit">
 </form>
 </body>
