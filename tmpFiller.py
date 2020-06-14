@@ -23,9 +23,9 @@ def create():
 
     critc = request.GET.get("critc")
     if critc == "":
-        tmp = tmp.replace("critc", "19")
+        tmp = tmp.replace("critc", "20")
     else:
-        tmp =tmp.replace("critc", str(int(critc) -1))
+        tmp =tmp.replace("critc", str(int(critc)))
 
     if "+" in dmgr:
         critsplit = dmgr.split("+")
