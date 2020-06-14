@@ -7,7 +7,7 @@ def home():
 
 @get('/create')
 def create():
-    tmp ="&{template:atkdmg} {{rname=mname}} {{r1=[[d20cs>critcattm]]}} {{normal=1}} {{attack=1}} {{damage=1}} {{dmg1flag=1}} {{dmg1=[[dmgr]]}} {{dmg1type=dmgt}} {{crit1=[[critdmg]]}} {{desc=descr}}"
+    tmp ="&{template:atkdmg} {{always=1}} {{rname=mname}} {{r1=[[d20cs>critcattm]]}} {{r2=[[d20cs>critcattm]]}} {{normal=1}} {{attack=1}} {{damage=1}} {{dmg1flag=1}} {{dmg1=[[dmgr]]}} {{dmg1type=dmgt}} {{crit1=[[critdmg]]}} {{desc=descr}}"
     mname = request.GET.get("mname")
     tmp =tmp.replace("mname", mname)
     descr = request.GET.get("descr")
